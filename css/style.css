@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+:lang(th) {
+    font-family: 'Kanit', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+
+.menubar .logo {
+    float: left;
+}
+
+
+.menubar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+
+.header {
+    background: #666 url(../imdgs/mm.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+    background-size: cover;
+    width: 100%;
+    height: 450px;;
+}
+
+.header_area {
+    padding-top: 150px;
+    text-align: center;
+    color: #fffcfc;
+    margin: 0 auto;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+
+.info1 {
+    width: 100%;
+    height: 400px;
+}
+.info1_area {
+    color: #333333;
+}
+.info1_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info1_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+.info2 {
+    width: 100%;
+    height: 350px;
+    background-color: #082B63;
+    background-image: url(../imdgs/pngtree-futuristic-industrial-engineering-image_16866019.jpg);
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+}
+.info2_area {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.info2_text {
+    text-align: center;
+    width: 460px;
+
+    position: absolute;
+    left: 70px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: #f0eeee;
+}
+
+.info2_area h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.info2_text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.contact_area h1 {
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+.contact_area input {
+    margin: 5px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area textarea {
+    margin: 5px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+.contact_area button {
+    padding: 10px;
+    width: 90px;
+    background: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.contact_area button:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #082B63;
+}
+.contact_area button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 90px;
+    background: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #082B63;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
